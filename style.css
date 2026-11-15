@@ -1,0 +1,43 @@
+
+.show{
+    display:block;
+}
+
+.done{
+    text-decoration:line-through;
+    opacity:0.5;
+}
+
+
+.card {
+    animation: cardAppear 0.4s ease-out;
+}
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+input{
+    height:2rem;
+    background: rgba(80, 78, 78, 0.40);
+    color:white;
+    padding-left:0.8rem;
+    font-weight:600;
+    font-size:1rem;
+    border:none;
+    border-radius:0.2rem;
+}
+
+
+input:focus{
+    outline:2px solid rgb(157, 202, 244);
+}

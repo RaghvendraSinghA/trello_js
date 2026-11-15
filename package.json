@@ -1,0 +1,17 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "main": "config.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ws": "^8.22.0"
+  }
+}

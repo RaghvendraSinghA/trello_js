@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trello</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            Trello
+        </nav>
+    </header>
+
+    <!-- this contains all list of cardlists -->
+    <main class="cardlist-container">
+
+
+        <!-- this adds new cardList -->
+
+        <div class="add-cardlist cardlist">
+
+            <div class = "new-card-input">
+                <div class="add-cardlist-btn">+</div>
+                <input class="input-box" placeholder="add a new cardlist" >
+            </div>
+        </div>
+    </main>
+
+
+    <!-- popup -->
+
+
+    <section class = "card-popup">
+        <div class="container">
+
+            <div class="cardname-and-close">
+                <div class="popup-cardname">CARD-NAME</div>
+                <div class="close-btn">x</div>
+            </div>
+
+
+            <div class="popup-add-checklist"> Add new checklist</div>
+            
+            <div class ="checklists-container">
+
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js" type="module"></script>
+
+</body>
+</html>
